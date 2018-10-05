@@ -18,7 +18,7 @@ Log out and log in to enable.
 
 ## References
 
-* [gnome-settings-daemon issue](https://gitlab.gnome.org/GNOME/gnome-settings-daemon/issues/9)
+* [GNOME mutter issue](https://gitlab.gnome.org/GNOME/mutter/issues/238)
 * [libinput documentation](https://wayland.freedesktop.org/libinput/doc/latest/middle-button-emulation.html)
 * Inspired by [scroll-emulation](https://github.com/PeterCxy/scroll-emulation)
 
