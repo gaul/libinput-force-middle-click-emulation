@@ -5,6 +5,13 @@ simultaneously.  This allows GNOME Wayland (and other Wayland compositors that
 do not expose libinput configuration) to configure the existing libinput
 functionality.
 
+## Information for users of mutter version 3.36.1 or newer
+This is not needed anymore if you use `mutter` version 3.36.1 or newer.
+There it is possible to directly enable middle click emulation:
+```bash
+gsettings set org.gnome.desktop.peripherals.mouse middle-click-emulation true
+```
+
 ## Installation
 
 Build `hook.so` then configure `libinput` to `LD_PRELOAD` it:
